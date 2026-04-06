@@ -15,7 +15,7 @@ To begin testing our APIs, you will need a **Security Key** or **Tokenization Ke
 
 Select the integration method that best fits your security requirements and user experience:
 
-### 1. * [Collect.js Integration Guide](docs/collect-js) – Recommended client-side tokenization for modern web apps. (Recommended)
+### 1. [Collect.js Integration Guide](docs/collect-js) – Recommended client-side tokenization.
 A JavaScript framework for modern web applications. It allows you to build custom checkout forms while remaining in a low PCI-compliance scope by tokenizing sensitive data directly in the browser.
 * **Best for:** Custom web checkouts.
 * **Key Feature:** Iframes for sensitive fields to ensure data never touches your server.
@@ -25,7 +25,7 @@ A secure redirect-based integration that handles sensitive data on the gateway's
 * **Best for:** High-security environments.
 * **Flow:** 1. Init Transaction -> 2. Customer enters data on Gateway -> 3. Finalize on your server.
 
-### 3. Direct Post API
+### 3. [Direct Post API Guide](docs/direct-post-payment-api)
 A traditional server-to-server HTTPS POST integration.
 * **Best for:** Backend-heavy systems or legacy migrations.
 * **Note:** Requires a higher level of PCI compliance (SAQ D) as your server handles raw card data.
