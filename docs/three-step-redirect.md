@@ -53,9 +53,7 @@ Once the customer is redirected back to your site, extract the token-id from the
     <token-id>TOKEN_FROM_URL</token-id>
 </complete-action>
 ```
-
 ---
-
 **Response Codes**
 The final response will include a `result` code indicating the status:
 
