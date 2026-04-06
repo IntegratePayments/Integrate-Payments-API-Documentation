@@ -22,26 +22,25 @@ Add this to your HTML `<head>`. Replace `YOUR_PUBLIC_KEY_HERE` with your actual 
 ```
 
 ## 🛠️ Step 2: Create the Payment Form
-Copy and paste this into your HTML <body>. These empty div elements are where the gateway will securely "inject" the credit card fields.
+Copy and paste this into your HTML. These empty div elements are where the gateway will securely "inject" the credit card fields.
 
-'''html
+```html
 <form id="my-payment-form">
     <div id="collectjs-card-number"></div>
     <div id="collectjs-cvv"></div>
     <div id="collectjs-expiration"></div>
-    
     <button type="submit" id="submit-btn">Pay Now</button>
 </form>
-'''
+```
 
 ## 🔄 Step 3: Handle the Response
 Add this JavaScript to capture the secure token.
 
 ```javascript
 CollectJS.configure({
-    'callback': function(response) {
+    'callback': function (response) {
         console.log("Tokenization Successful!");
         console.log("Token ID: " + response.token);
     }
 });
-'''
+```
