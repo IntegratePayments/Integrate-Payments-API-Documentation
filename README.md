@@ -15,7 +15,7 @@ To begin testing our APIs, you will need a **Security Key** or **Tokenization Ke
 
 Select the integration method that best fits your security requirements and user experience:
 
-### 1. Collect.js (Recommended)
+### 1. * [Collect.js Integration Guide](docs/collect-js) – Recommended client-side tokenization for modern web apps. (Recommended)
 A JavaScript framework for modern web applications. It allows you to build custom checkout forms while remaining in a low PCI-compliance scope by tokenizing sensitive data directly in the browser.
 * **Best for:** Custom web checkouts.
 * **Key Feature:** Iframes for sensitive fields to ensure data never touches your server.
