@@ -20,7 +20,7 @@ A JavaScript framework for modern web applications. It allows you to build custo
 * **Best for:** Custom web checkouts.
 * **Key Feature:** Iframes for sensitive fields to ensure data never touches your server.
 
-### 2. Three-Step Redirect API
+### 2. [Three-Step Redirect API Guide](docs/three-step-redirect)
 A secure redirect-based integration that handles sensitive data on the gateway's side.
 * **Best for:** High-security environments.
 * **Flow:** 1. Init Transaction -> 2. Customer enters data on Gateway -> 3. Finalize on your server.
