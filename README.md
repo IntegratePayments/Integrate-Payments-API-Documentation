@@ -35,7 +35,7 @@ Process retail, card-present transactions using internet-connected terminals wit
 * **Best for:** POS systems and physical retail locations.
 * **Support:** Synchronous and Asynchronous polling.
 
-### 5. Query API
+### 5. [Query API (Reporting)](docs/query-api.md)
 A machine-readable reporting API for reconciliation and accounting.
 * **Format:** Name/value pairs via HTTPS POST.
 
