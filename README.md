@@ -15,22 +15,22 @@ To begin testing our APIs, you will need a **Security Key** or **Tokenization Ke
 
 Select the integration method that best fits your security requirements and user experience:
 
-### 1. [Collect.js Integration Guide](docs/collect-js) – Recommended client-side tokenization.
+### 1. [Collect.js Integration Guide](docs/collect-js.md) – Recommended client-side tokenization.
 A JavaScript framework for modern web applications. It allows you to build custom checkout forms while remaining in a low PCI-compliance scope by tokenizing sensitive data directly in the browser.
 * **Best for:** Custom web checkouts.
 * **Key Feature:** Iframes for sensitive fields to ensure data never touches your server.
 
-### 2. [Three-Step Redirect API Guide](docs/three-step-redirect)
+### 2. [Three-Step Redirect API Guide](docs/three-step-redirect.md)
 A secure redirect-based integration that handles sensitive data on the gateway's side.
 * **Best for:** High-security environments.
 * **Flow:** 1. Init Transaction -> 2. Customer enters data on Gateway -> 3. Finalize on your server.
 
-### 3. [Direct Post API Guide](docs/direct-post-payment-api)
+### 3. [Direct Post API Guide](docs/direct-post-payment-api.md)
 A traditional server-to-server HTTPS POST integration.
 * **Best for:** Backend-heavy systems or legacy migrations.
 * **Note:** Requires a higher level of PCI compliance (SAQ D) as your server handles raw card data.
 
-### 4. ChipDNA Cloud
+### 4. [ChipDNA Cloud Guide](docs/chipdna-cloud.md)
 Process retail, card-present transactions using internet-connected terminals without a local SDK.
 * **Best for:** POS systems and physical retail locations.
 * **Support:** Synchronous and Asynchronous polling.
